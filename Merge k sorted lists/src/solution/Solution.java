@@ -1,5 +1,7 @@
 package solution;
-import java.util.*;
+import java.util.PriorityQueue;
+import java.util.Comparator;
+
 public class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
     	// Return null for empty lists
