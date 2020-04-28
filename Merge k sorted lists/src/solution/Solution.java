@@ -1,3 +1,4 @@
+package solution;
 import java.util.*;
 public class Solution {
     public ListNode mergeKLists(ListNode[] lists) {

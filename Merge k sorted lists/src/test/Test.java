@@ -1,3 +1,6 @@
+package test;
+import solution.ListNode;
+import solution.Solution;
 
 public class Test {
 	public static void main(String[] args) {
