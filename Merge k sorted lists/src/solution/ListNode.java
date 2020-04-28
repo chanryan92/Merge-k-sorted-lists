@@ -1,6 +1,15 @@
 package solution;
 public class ListNode {
-	public int val;
-	public ListNode next;
+	int val;
+	ListNode next;
 	public ListNode(int x) { val = x; }
+	public int getVal() {
+		return val;
+	}
+	public ListNode next() {
+		return next;
+	}
+	public void next(ListNode node) {
+		this.next = node;
+	}
 }
