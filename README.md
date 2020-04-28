@@ -18,7 +18,6 @@
 </p>
 
 ## Complexity Analysis
-    <p>
   - Time Complexity: <br />
     O(N logk) where N is the number of nodes in the final linked list and k is the number of linked lists. <br />
     The comparison cost of a heap is logk for every insertion and deletion. <br />
@@ -27,7 +26,7 @@
     <p/>
     <p>
   - Space Complexity: <br />
-    Maximum of O(N) and O(k) where N is the number of nodes in the final linked list and k is the number of linked lists. <br />
+Maximum of O(N) and O(k) where N is the number of nodes in the final linked list and k is the number of linked lists. <br />
     Note that we can apply an in-place method which improve the space complexity to O(k) space only. <br />
     <p/>
 
